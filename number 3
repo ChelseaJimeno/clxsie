@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+    int sum = 0;
+    
+    // Loop through the series from 5 to 50 with a step of 3
+    for (int i = 5; i <= 50; i += 3) {
+        sum += i;
+    }
+
+    // Output the result
+    std::cout << "Sum of the series: " << sum << std::endl;
+    
+    return 0;
+}
