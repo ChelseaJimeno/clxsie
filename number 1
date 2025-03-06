@@ -1,0 +1,8 @@
+#include <iostream>
+
+int main() {
+    for (int i = 10; i >= 0; i--) {  // Loop from 10 down to 0
+        std::cout << i << std::endl;
+    }
+    return 0;
+}
